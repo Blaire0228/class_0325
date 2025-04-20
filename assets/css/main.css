@@ -17,40 +17,39 @@
   --nav-font: "Poppins",  sans-serif;
 }
 
-/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #0c0b09; /* Background color for the entire website, including individual sections */
-  --default-color: rgba(255, 255, 255, 0.7); /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #cda45e; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #29261f; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #0c0b09; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #fcfaf4;
+  --default-color: #252525;
+  --heading-color: #430d0d;
+  --accent-color: #e0a8a7;
+  --surface-color: #f6f1ea;
+  --contrast-color: #ffffff;
 }
 
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+/* Nav Menu Colors */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #cda45e; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #29261f; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #29261f; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #ffffff; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #cda45e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #571818;
+  --nav-hover-color: #d29c9c;
+  --nav-mobile-background-color: #ffffffc2;
+  --nav-dropdown-background-color: #fdfaf6;
+  --nav-dropdown-color: #6e6259;
+  --nav-dropdown-hover-color: #d29c9c;
 }
 
-/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
-
+/* Color Presets */
 .light-background {
-  --background-color: #29261f;
-  --surface-color: #464135;
+  --background-color: #fdfaf6;
+  --surface-color: #f6f1ea;
 }
 
 .dark-background {
   --background-color: #000000;
-  --default-color: #ffffff;
+  --default-color: #fdfaf6;
   --heading-color: #ffffff;
-  --surface-color: #1a1a1a;
+  --surface-color: #3a2f2b;
   --contrast-color: #ffffff;
 }
+
 
 /* Smooth scroll */
 :root {
@@ -166,7 +165,7 @@ h6 {
   border: 5px solid color-mix(in srgb, var(--accent-color), transparent 30%);
   top: -15%;
   left: -15%;
-  background: rgba(198, 16, 0, 0);
+  background: #e0a8a7;
 }
 
 .pulsating-play-btn:after {
@@ -222,7 +221,7 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(12, 11, 9, 0.61);
+  --background-color: #ffffffd3;
   color: var(--default-color);
   transition: all 0.5s;
   z-index: 997;
@@ -347,7 +346,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color: #0c0b09;
+  --background-color: #e8beb9;
 }
 
 /*--------------------------------------------------------------
@@ -551,12 +550,12 @@ h6 {
   }
 
   .navmenu .dropdown ul ul {
-    background-color: rgba(33, 37, 41, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .navmenu .dropdown>.dropdown-active {
     display: block;
-    background-color: rgba(33, 37, 41, 0.03);
+    background-color: rgba(255, 238, 206, 0.03);
   }
 
   .mobile-nav-active {
@@ -577,7 +576,7 @@ h6 {
     position: fixed;
     overflow: hidden;
     inset: 0;
-    background: rgba(33, 37, 41, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     transition: 0.3s;
   }
 
@@ -1297,9 +1296,9 @@ section,
 # Events Section
 --------------------------------------------------------------*/
 .events {
-  --default-color: #ffffff;
-  --background-color: #000000;
-  --heading-color: #ffffff;
+  --default-color: #3d3d3d;
+  --background-color: #fff9ebe4;
+  --heading-color: #3e3e3e;
   padding: 80px 0;
   position: relative;
 }
@@ -1323,7 +1322,7 @@ section,
 }
 
 .events .section-title h2 {
-  color: #ffffff;
+  color: #490000;
 }
 
 .events .container {
